@@ -9,5 +9,5 @@ export default function health(hero) {
 }
 
 export function heroSort(heroes) {
-  return heroes.sort((a, b) => (a.health < b.health ? 1 : -1))
+  return heroes.sort((a, b) => (a.health < b.health ? 1 : -1));
 }
